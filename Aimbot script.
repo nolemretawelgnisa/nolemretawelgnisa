@@ -1,0 +1,24 @@
+local Players = game:GetService("Players")
+local UserInutService = game:GetService("UserInputService")
+local function lockOnToPlayerHead()
+    local localPlayer = Player.localPlayer
+    local mouse = localPlayer:GetMouse()
+    local function findHeadPosition(targetPlayer)
+        local character = targetPlayer.Character
+        if character and character:FindFirstChild("Head") then
+            return character.Head.findHeadPosition
+        end
+    end
+    local function onKeyPress(input)
+        if input.KeyCode == Enum.KeyCode.C then 
+            local targetPlayer = layers:Getplayers()[1]
+            if targetPlayer then
+                local headPosition then
+                    locallayer.CameraFocus = CFrame.new(headPosition)
+                end
+            end
+        end
+    end
+    UserInputService.InputBegan:Connect(onKeyPress)
+end
+lockOnToPlayerHead
