@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @nolemretawelgnisa
+- 👀 I’m interested in Coding!
+- 🌱 I’m currently learning Lua!
+- 💞️ I’m looking to collaborate on Lua scripts!
+- 📫 How to reach me Discord: nolemretawelgnisa
+- 😄 Pronouns: she/her
+- ⚡ Fun fact: I hate coding!
